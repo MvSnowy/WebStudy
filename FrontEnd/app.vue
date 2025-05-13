@@ -1,23 +1,39 @@
 <template>
   <div>
   <h1>Mvy_Snowのプロフィール</h1>
-    <strong>test</strong>
-      <p>本日<br>
+      <p> <br></p>
+      <p><strong>本日</strong><br>
         🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣<br>
             🍣🍣🍣<br>
             🍣🍣🍣🍣🍣🍣<br>
                    🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣<br>
-      </p>
-  <!-- 自己紹介コーナー -->
-   <em>これはテスト用文章ですtest</em>
+        <strong>Dayとさせていただきます</strong>
+       </p>
+   <!-- <em>これはテスト用文章ですtest</em> -->
    <br>
-   <strong>これはテスト用文章ですtest</strong>
+   <!-- <strong>これはテスト用文章ですtest</strong> -->
    <br>
-   <i>そしてこれもテスト用文章ですtest</i>
+   <!-- <i>そしてこれもテスト用文章ですtest</i> -->
+  <ul>
+    <li>
+      <a href="#1">自己紹介</a>
+    </li>
+    <li>
+      <a href="#2">現在の目標</a>
+    </li>
+    <li>
+      <a href="#3">スキル一覧</a>
+    </li>
+        <li>
+      <a href="#4">趣味・特技</a>
+    </li>
+
+  </ul>
 
   <!-- <abbr title="Cascading Style Sheets">CSS</abbr> (Cascading Style Sheets) を使うと、<br> -->
+  <!-- 自己紹介コーナー -->
 
-  <h2>自己紹介</h2>
+  <h2 id="1">自己紹介</h2>
       <p>
         こんにちは！こんにちは！見えていますか？
         <br>
@@ -25,13 +41,13 @@
         <br>
         現在、私はエンジニアとなるべく<abbr title="HyperText Markup Language">HTML</abbr>の学習をしています。
       </p>
-  <h3>現在の目標</h3>
+  <h2 id="2">現在の目標</h2>
         <ul>
-          <li>HTMLの習得</li>
+          <li><abbr title="HyperText Markup Language">HTMLの習得</abbr></li>
           <li><abbr title="Cascading Style Sheets">CSS</abbr>への理解</li>
         </ul>
 
-  <h4>スキル一覧</h4>
+  <h2 id="3">スキル一覧</h2>
   <!-- テーブル作成、表の枠はborderが存在するが非推奨。CSSで作成可能 -->
         <table>
           <caption>
@@ -55,39 +71,36 @@
           </tbody>
         </table>
   <!-- 順序無しリストここから -->
+   <h2 id="3">趣味・特技</h2>
+   <h3>ゲーム</h3>
     <ul>
-      <li>項目1</li>
-        <ul>
-            <li>sub</li>
-            <li>sub2</li>
-        </ul>
-      <li>項目2</li>
-      <li>項目3</li>
+      <li>FinalFantasyXIV</li>
+      <li>League of Legends</li>
   </ul>
+  <h3>SNS</h3>
+    <ul>
+      <li>X(旧:Twitter)</li>
+      <li>VRChat</li>
+    </ul>
 <!-- 順序無しリストここまで -->
 <!-- ------------------------------------------------------- -->
-<!-- 順序アリリスト -->
+<!-- 順序有りリスト -->
+ <h2 id="4">お気に入り</h2>
+ <h3>好きな作品</h3>
 <ol>
-  <li>項目1</li>
-    <ol>
-      <li>mimi</li>
-    </ol>
-  <li>項目2</li>
-    <ul>
-        <li>noko</li>
-      </ul>
-  <li>項目3</li>
+  <li>ドラゴンクエストシリーズ</li>
+  <li>ハリー・ポッターシリーズ</li>
+  <li>FinalFantasyXIV</li>
 </ol>
-<!-- 順序アリリストここまで -->
+<!-- 順序有りリストここまで -->
+ <h3>好きな場所</h3>
 <dl>
-  <dt>スシロー</dt>
-  <dd>A large feline inhabiting Bodmin Moor.</dd>
+  <dt><strong>スシロー</strong></dt>
+  <dd>
+    月一で通いつめている場所。コラボ先が魅力的なのが多いのがポイント<br>
+    <em>是非あおさ汁を飲もう</em>
+  </dd>
 
-  <dt>Morgawr</dt>
-  <dd>A sea serpent.</dd>
-
-  <dt>Owlman</dt>
-  <dd>A giant owl-like creature.</dd>
 </dl>
 
   </div>
