@@ -1,7 +1,10 @@
 <template>
   <div>
   <h1>Mvy_Snowのプロフィール</h1>
-      <p> <br></p>
+  <img 
+    class="Shayna"
+    src="/Shayna.png">
+        <p> <br></p>
       <p><strong>本日</strong><br>
         🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣🍣<br>
             🍣🍣🍣<br>
@@ -100,8 +103,15 @@
     月一で通いつめている場所。コラボ先が魅力的なのが多いのがポイント<br>
     <em>是非あおさ汁を飲もう</em>
   </dd>
-
 </dl>
 
-  </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.0532972517844!2d131.67558557603488!3d32.55142279548021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3547197c4b795555%3A0x5b819f76c3023dbd!2z44K544K344Ot44O8IOW7tuWyoeW5s-WOn-W6lw!5e0!3m2!1sja!2sjp!4v1747139737888!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 </template>
+
+<style>
+/* 「.」はクラスを差す */
+.Shayna {
+  width: 250px;
+}
+</style>
